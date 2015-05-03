@@ -9,20 +9,16 @@
                     <i class="fa fa-play-circle"></i> dawidwrobel<span class="light">.com</span>
                 </a>
             </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
+                <ul class="list-inline nav navbar-nav">
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a href="mailto:{{ site.email }}" class="btn"><i class="fa fa-envelope fa-fw"></i><span class="network-name visible-xs">{{ site.email }}</span></a>
                     </li>
+                    {% for network in site.social %}
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a href="{{ network.url }}" class="btn"><i class="fa fa-{{ network.title }} fa-fw"></i><span class="network-name visible-xs">{{ network.title }}</span></a>
                     </li>
+                    {% endfor %}
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
