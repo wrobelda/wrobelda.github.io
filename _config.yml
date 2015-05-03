@@ -7,7 +7,7 @@ description: "Dawid Wróbel personal landing page."
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary-dark: '#000000'
-  links: '#219ab3'
+  links: '#ffffff'
 
 # Footer settings
 footer: Dawid Wróbel
