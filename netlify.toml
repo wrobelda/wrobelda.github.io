@@ -5,4 +5,4 @@
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
     X-Content-Type-Options = "nosniff"
-    Content-Security-Policy = "default-src 'none'; font-src 'self' https://fonts.gstatic.com; img-src 'self'; script-src 'self' 'unsafe-inline' https://maps.googleapis.com/maps-api-v3/api/js/44/5/common.js https://maps.googleapis.com/maps-api-v3/api/js/44/5/util.js https://maps.googleapis.com/maps/api/js https://maps.googleapis.com/maps/api/js/AuthenticationService.Authenticate https://www.google-analytics.com/analytics.js; style-src 'self' https://fonts.googleapis.com/"
+    Content-Security-Policy =  "default-src 'none'; font-src 'self' https://fonts.gstatic.com; img-src 'self'; script-src 'self' 'unsafe-inline' https://www.google-analytics.com/analytics.js; style-src 'self' https://fonts.googleapis.com/"
